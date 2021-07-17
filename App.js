@@ -9,7 +9,7 @@ import Icon from 'react-native-vector-icons/Ionicons'
 import fonts from './assets/fonts/fonts';
 import AppLoading from 'expo-app-loading';
 import Home from './components/Home';
-
+import Details from './components/Details';
 const Stack = createStackNavigator();
 
 
@@ -28,6 +28,9 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen  name="Home" component={Home}  options={{
           headerShown: false
+        }}/>
+        <Stack.Screen  name="Details" component={Details}  options={{
+            headerShown: false
         }}/>
       </Stack.Navigator>
     </NavigationContainer>
