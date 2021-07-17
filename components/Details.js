@@ -175,7 +175,9 @@ const styles = new StyleSheet.create({
   },
   itemImage: {
     resizeMode: 'contain',
-    marginLeft: 50,
+    marginLeft: 30,
+    width:300,
+    height:200
   },
   ingredientsWrapper: {
     marginTop: 40,
@@ -207,6 +209,8 @@ const styles = new StyleSheet.create({
   },
   ingredientImage: {
     resizeMode: 'contain',
+    width:80,
+    height:80
   },
   orderWrapper: {
     marginTop: 60,
